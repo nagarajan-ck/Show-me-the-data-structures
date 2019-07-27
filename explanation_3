@@ -1,0 +1,5 @@
+A dictionary was used to store the letters and their frequencies as key and values. Also an array was used to just store the keys in the sorted order since sorting is easy in arrays.
+A tree is used to derive the codes for each distinct letter and the letters and codes are also stored as a key value pair in a dictionary for easy access.
+
+Time complexity is O(nlogn) since sorting is done on the array
+Space complexity depends on the size of the input data- O(n)

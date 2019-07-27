@@ -1,0 +1,5 @@
+A dictionary was used since the input was a key value pair. Since the least used item was to be removed, FIFO was implemented using the deque, where the least recently used would be at the right, most recently at the left.
+
+Time efficiency- Getting, Inserting and removing the values from the cache takes O(1).
+Space efficiency- Since the amount of memory used depends on size of cache, which is assumed to be constant at 5, it would take O(1).
+

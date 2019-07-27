@@ -1,0 +1,4 @@
+An array was used to store the list of users and group since to perform iteration. A list is alos used to check for groups already checked to avoid cyclic relationships
+
+Time complexity- O(n) due to iteration
+Space complexity - O(n) depends on the number of groups and users

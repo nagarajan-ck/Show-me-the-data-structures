@@ -1,0 +1,4 @@
+A linked list is used to store the blocks and a block is appended to the tail of a linked list when adding to the chain.
+
+Time complexity - Since the linked list tracks the tail node, creating and appending a block happens in unit time. Hence to add the block to the chain, O(1)
+Space complexity - Space complexity depends on the size of the input data that is to be stored in the blocks O(n)

@@ -1,0 +1,4 @@
+Recursion is used to find the files within the subfolders. A list is used to store the paths
+
+Time complexity- O(n) since we have to iterate over each file and check for the file or subfolders
+space complexity - O(n) depends on the number of subfolders and files found
