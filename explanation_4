@@ -1,4 +1,4 @@
-An array was used to store the list of users and group since to perform iteration. A list is alos used to check for groups already checked to avoid cyclic relationships
+An array was used to store the list of users and group since to perform iteration. A list is also used to check for groups already checked to avoid cyclic relationships. It is achieved through recursion
 
 Time complexity- O(n) due to iteration
 Space complexity - O(n) depends on the number of groups and users
