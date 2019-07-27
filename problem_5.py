@@ -70,6 +70,8 @@ def find_previous_hash(linked_List):
         return linked_List.get_tail().value.hash
     else:
         return 0
+        
+        
     
 linked_List = LinkedList()
 
@@ -85,6 +87,5 @@ linked_List.append(Node(block1))
 
 linked_List.print_tail() #prints the details of the second block as it is the tail
 
-linked_List.print_Linked_List() #prints all the block's details
-
-
+linked_List.append(None)
+linked_List.print_tail() #prints None as the tail node is none
